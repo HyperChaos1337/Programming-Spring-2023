@@ -1,0 +1,30 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="mario&amp;luigi.png" transparentColor="">
+ <animation title="stay" delay="150">
+  <cut w="14" x="247" y="200" h="30" row="1" col="1"/>
+ </animation>
+ <animation title="walk" delay="150">
+  <cut w="14" x="247" y="200" h="30" row="1" col="1"/>
+  <cut w="15" x="276" y="200" h="30" row="1" col="1"/>
+  <cut w="16" x="306" y="200" h="29" row="1" col="1"/>
+ </animation>
+ <animation title="jump" delay="150">
+  <cut w="18" x="335" y="200" h="29" row="1" col="1"/>
+ </animation>
+ <animation title="climb" delay="150">
+  <cut w="16" x="336" y="319" h="31" row="1" col="1"/>
+  <cut w="16" x="67" y="319" h="31" row="1" col="1"/>
+ </animation>
+ <animation title="duck" delay="150">
+  <cut w="15" x="217" y="167" h="15" row="1" col="1"/>
+ </animation>
+ <animation title="hit" delay="150">
+  <cut w="15" x="38" y="239" h="31" row="1" col="1"/>
+ </animation>
+ <animation title="shoot" delay="150">
+  <cut w="15" x="246" y="280" h="30" row="1" col="1"/>
+ </animation>
+ <animation title="shootAndWalk" delay="150">
+  <cut w="15" x="276" y="280" h="30" row="1" col="1"/>
+ </animation>
+</sprites>
